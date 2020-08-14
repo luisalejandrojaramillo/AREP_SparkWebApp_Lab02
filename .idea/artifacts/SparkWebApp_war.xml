@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SparkWebApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SparkWebApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SparkWebApp.war">
+      <element id="artifact" artifact-name="SparkWebApp:war exploded" />
+    </root>
+  </artifact>
+</component>
