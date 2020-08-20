@@ -40,3 +40,10 @@ mvn clean install
 heroku local web
 ```
 
+## Reporte de Laboratorio
+[Reporte](/Lab01LaTexAREP.pdf)
+## License
+[MIT License ](/LICENSE)
+## Autor
+Luis Alejandro Jaramillo Rincon
+
