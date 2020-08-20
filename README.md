@@ -1,6 +1,13 @@
 # SparkWebApp_AREP_Lab02
 Esta aplicacion web desplegada en heroku, calcula la Media y la Desviacion Estandar (D.E) de un conjunto de n numeros reales. Estos numeros los ingresaran los uruarios de la aplicacion web.
 
+## Para probarlo con Heroku
+
+* [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+
+* [Heroku](https://sparkcalculatorarep.herokuapp.com/)
+
+
 ## Para probarlo localmente
 
 ### Requisitos
