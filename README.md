@@ -1,12 +1,6 @@
 # SparkWebApp_AREP_Lab02
 Esta aplicacion web desplegada en heroku, calcula la Media y la Desviacion Estandar (D.E) de un conjunto de n numeros reales. Estos numeros los ingresaran los uruarios de la aplicacion web.
 
-## Procfile Changes
-* Para pruebas locales en Windows
-web: java -cp target/classes;target/dependency/* edu.escuelaing.arep.SparkWebApp
-* Para Heroku
-web: java  $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arep.SparkWebApp
-
 ## Para probarlo localmente
 
 ### Requisitos
@@ -14,6 +8,12 @@ web: java  $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arep
 * Java 8
 * Maven
 * App de Heroku 
+
+### Procfile Changes
+* Para pruebas locales en Windows
+web: java -cp target/classes;target/dependency/* edu.escuelaing.arep.SparkWebApp
+* Para Heroku
+web: java  $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arep.SparkWebApp
 
 ### Instalación
 1. Abrimos una terminal
@@ -33,7 +33,8 @@ mvn package
 ```
 java -cp target/Lab01-1.0-SNAPSHOT.jar edu.escuelaing.arep.App
 ```
-6. Heroku local
+6. Realizamos los cambios respectivos al Procfile
+7. Heroku local
 ```
 mvn clean install
 heroku local web
