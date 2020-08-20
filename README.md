@@ -1,1 +1,1 @@
-# SparkWebApp_ARSW_Lab02
+# SparkWebApp_AREP_Lab02
