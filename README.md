@@ -3,9 +3,9 @@ Esta aplicacion web desplegada en heroku, calcula la Media y la Desviacion Estan
 
 ## Para probarlo con Heroku
 
-* [![CircleCI](https://circleci.com/gh/luisalejandrojaramillo/AREP_SparkWebApp_Lab02.svg?style=svg)](https://circleci.com/gh/luisalejandrojaramillo/AREP_SparkWebApp_Lab02)
+* [![CircleCI](https://circleci.com/gh/luisalejandrojaramillo/AREP_ClientesServicios_Lab03.svg?style=svg)](https://circleci.com/gh/luisalejandrojaramillo/AREP_ClientesServicios_Lab03)
 
-* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://sparkcalculatorarep.herokuapp.com/)
+* [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://clientserverarep.herokuapp.com/)
 
 
 
